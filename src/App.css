@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.scon {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 8px;
+  color: #999;
+  width: 100%;
+
+
+
+}
+
+.img-fluid {
+  width: 100%;
+  height: fit-content;
+}
+
+.empty-message {
+  color: #999;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.p-first {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.p-second {
+  font-size: 1.2rem;
+}
+
+.btn-default {
+  margin-right: 5px;
+  width: 6rem
+}
+
+.btn-default {
+  background-image: linear-gradient(-180deg, #fff 0, #f9fafb 100%);
+  border-color: #c4cdd5;
+  box-shadow: 0 1px 0 0 rgb(22 29 37 / 5%);
+  color: #313538;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  font-family: NeueHaasUnica, Helvetica, Arial, sans-serif;
+  border-radius: 3px;
+  border-width: 1px;
+  line-height: 1.5;
+}
+
+
+
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  margin-right: 3px;
+  margin-bottom: 3px
+}
+
+
+.form-control {
+  height: 35px;
+  padding-left: 40px;
+  /* width:rem;  */
+
+}
+
+.searchDiv {
+  position: relative;
+}
+
+.src {
+  position: absolute;
+  top: .5rem;
+  left: 1rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .search-btn {
+    display: flex;
+    flex-direction: column;
+    /* background-color:red  */
+  }
+
+  .searchDiv {
+    width: 60%;
+    /* margin-bottom:.5rem/ZZZZ  */
+  }
+}
+
+.history-div {
+
+  width: 70%;
+}
